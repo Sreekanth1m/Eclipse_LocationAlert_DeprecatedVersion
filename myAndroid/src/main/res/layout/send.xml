@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/etQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:text="Android is ...">
+
+        <requestFocus />
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/rgAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rUserFriendly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Friendly" />
+
+        <RadioButton
+            android:id="@+id/rOperSource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Source" />
+
+        <RadioButton
+            android:id="@+id/rBoth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Both" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bReturnData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ReturnData" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
